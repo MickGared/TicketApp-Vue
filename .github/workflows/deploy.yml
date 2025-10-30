@@ -12,10 +12,6 @@ jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
 
-    defaults:
-      run:
-        working-directory: ./my-vue-app  # 👈 your project folder (edit this if needed)
-
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
